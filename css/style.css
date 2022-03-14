@@ -1,0 +1,213 @@
+
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    transition: .8s ease-in-out;
+
+}
+
+
+body {
+    background-color: #111111;
+}
+
+#menu {
+    display: flex;
+    gap: 30%;
+    padding-top: 2%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cabeçalho {
+    display: flex;
+    gap: 20%;
+    justify-content: right;
+    list-style: none;
+    margin-right: 10%;
+}
+
+#logo-politize {
+    width: 15%;
+    margin-left: 5%;
+
+}
+
+#sessão-top {
+    height: fit-content;
+}
+
+#top-privacidade {
+    width: 100%;
+    height: 220px;
+}
+
+#div-logo-privacidade {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+h1 {
+    margin-top: 1%;
+    padding-top: 3%;
+    text-align: center;
+
+}
+
+#p-aprsentação {
+    padding-top: 2%;
+    font-size: larger;
+    width: 100%;
+    text-align: center;
+
+}
+#logo-privacidade {
+    width: 10%;
+    
+}
+
+h1, h2, h3, p, ul, li, span {
+    color: white;
+    font-family:'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#cards {
+    display: flex;
+    margin: 1%;
+    gap: 3%;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+
+.divisões-icons {
+    border: 2px solid #da8d39;
+    width: 25%;
+    height: 100px;
+    border-radius: 3%;
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    cursor: pointer;
+
+
+}
+
+.divisões-icons:hover {
+    background-color: #e9b72a;
+    border: #eaead8;
+    border: 2px solid #da8d39;
+    transform: scale(1.1);
+    filter: brightness(120%);
+}
+
+
+.icones {
+    width: 50%;
+    height: 70%;
+}
+
+.div-icons-item {
+    margin: 3%;
+    font-size: larger;
+}
+
+.div-icons-item-p {
+    font-size: small;
+    text-align: center;
+}
+
+
+#políticas-documentos {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+#section-politicas-treinamentos {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 7%;
+}
+
+
+.divs-section-políticas {
+
+    width: 30%;
+    height: fit-content;
+    margin-top: 24px;
+    padding: 32px 12px;
+    transition: .5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.divs-section-políticas-docs:hover {
+    transform: scale(1.1);
+    filter: brightness(120%);
+}
+
+.fundo-videos-políticas:hover {
+    transform: scale(1.1);
+    filter: brightness(120%);
+}
+
+.icone-youtube {
+    width: 25%;
+    justify-items: center;
+    background-image: url("../img/download\ \(4\).jpg");
+    background-size: cover;
+}
+
+.divs-section-políticas-titulo {
+    margin-top: 5%;
+    font-size: larger;
+    color: #da8d39;
+
+}
+
+.divs-section-políticas-p {
+    margin-top: 2%;
+    font-size: medium;
+}
+
+.divs-section-políticas-docs {
+    border: 2px solid #da8d39;
+    width: 100%;
+    height: 40px;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.divs-section-políticas-docs-icone {
+    width: 6%;
+    height: fit-content;
+}
+
+.divs-section-políticas-data {
+    margin-top: 5%;
+    font-size: small;
+}
+
+.link-política {
+    color: #e9b72a;
+}
